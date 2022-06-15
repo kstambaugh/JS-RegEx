@@ -29,9 +29,10 @@ numbers if there are more than one
 Expected Output: 
 ["555-123-4567", "555-567-8910"]
 
-*/ 
- 
-let phoneReg = /write your regex here/
+*/
+
+let phoneReg = sampleApp.match(/\d{3}-+\d{3}-+\d{4}/g)
+console.log(phoneReg)
 
 /* 
 
@@ -49,10 +50,10 @@ Expected Output:
 ["lsouza@gmail.com"]
 - Note: Your terminal might also display the index, input, and groups of the match. If so, that's okay!
 
-*/ 
+*/
 
-let emailReg = /write your regex here/
-
+let emailReg = sampleApp.match(/\w+@{1}\w+.+\w/g)
+console.log(emailReg)
 /* 
 
 Regular Expression 3: 
@@ -65,6 +66,6 @@ Regular Expression 3:
 Expected Output: 
 365
 
-*/ 
+*/
 
 let statusReg = /write your regex here/
