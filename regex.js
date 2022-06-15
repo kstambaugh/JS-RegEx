@@ -68,4 +68,4 @@ Expected Output:
 
 */
 
-let statusReg = /write your regex here/
+let statusReg = sampleApp.match
